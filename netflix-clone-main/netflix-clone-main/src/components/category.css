@@ -1,0 +1,28 @@
+.movieposters{
+    display: flex;
+    margin-top: 30px;
+    object-fit: contain;
+    overflow: hidden;
+    overflow-x: scroll;
+    /* padding: 20px; */
+}
+
+.movieposters::-webkit-scrollbar
+{
+    display: none;
+}
+.title{
+    margin-top: 20px;
+    margin-left: 3rem;
+}
+
+.movieimg{
+    width: auto;
+    height: 200px;
+    margin-right:-8px ;
+    transition: transform 500ms;
+}
+
+.movieimg:hover{
+    transform: scale(1.08);
+}
